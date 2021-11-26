@@ -16,17 +16,45 @@
     border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
-/*  */
-header {
-    display: none !important;
+.page-anchors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-/*  */
+
+.page-anchors li {
+    text-align: center;
+}
+
+.page-anchors a {
+    display: block;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: .5em 3em;
+
+    border-radius: 6px;
+    text-align: center;
+    width: 10em;
+    margin: .5em;
+    transition: all .2s;
+}
+
+.page-anchors a:hover {
+    background-color: var(--clr-yellow-light);
+    color: black;
+    transform: translateY(3px);
+}
 
 
 
-.drinks-list li {
+.drinks-list > li {
     display: grid;
     margin-bottom: 1em;
+}
+
+.drinks-beers li,
+.drinks-vins li {
     border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
@@ -42,10 +70,24 @@ header {
 .drink-name {
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: .25em;
+}
+
+.drinks-cocktails .drink-detail {
+    margin-left: 1em;
 }
 
 .drink-detail {
-    font-style: italic;
+    max-width: 90%;
+}
+
+.drink-detail li {
+    margin-top: .5em;
+    border-bottom: 2px dotted var(--clr-yellow-lighter);
+}
+
+.drink-detail li strong {
+    text-transform: uppercase;
 }
 
 .drink-price {
@@ -53,16 +95,17 @@ header {
     grid-row: 1 / -1;
     justify-self: end;
     margin-left: 1em;
+    text-align: right;
 }
 
-.drinks-beers .bgimage {
+.drinks-list .bgimage {
     display: flex;
     justify-content: center;
     gap: .5em;
     padding-top: .5em;
 }
 
-.drinks-beers .bgimage div {
+.drinks-list .bgimage div {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,4 +123,31 @@ header {
 }
 .drinks-beers .bgimage div:last-of-type {
     background-image: url(/img/beers3.jpg);
+}
+.drinks-cocktails .bgimage div:first-of-type {
+    background-image: url(/img/cocktails1.jpg);
+}
+.drinks-cocktails .bgimage div:nth-of-type(2) {
+    background-image: url(/img/cocktails2.jpg);
+}
+.drinks-cocktails .bgimage div:last-of-type {
+    background-image: url(/img/cocktails3.jpg);
+}
+.drinks-vins .bgimage div:first-of-type {
+    background-image: url(/img/vins1.jpg);
+}
+.drinks-vins .bgimage div:nth-of-type(2) {
+    background-image: url(/img/vins2.jpg);
+}
+.drinks-vins .bgimage div:last-of-type {
+    background-image: url(/img/vins3.jpg);
+}
+.drinks-softs .bgimage div:first-of-type {
+    background-image: url(/img/softs1.jpg);
+}
+.drinks-softs .bgimage div:nth-of-type(2) {
+    background-image: url(/img/softs3.jpg);
+}
+.drinks-softs .bgimage div:last-of-type {
+    background-image: url(/img/softs2.jpg);
 }
