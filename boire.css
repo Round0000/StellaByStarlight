@@ -1,154 +1,153 @@
 .section-header {
-    background-image: url(https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
-    background-position-y: 40%;
+  background-image: url(https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+  background-position-y: 40%;
 }
 
 .happyhours-list {
-    list-style: none;
-    font-size: 1rem;
+  list-style: none;
+  font-size: 1rem;
 }
 
 .happyhours-list li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: .75em;
-    border-bottom: 2px dotted var(--clr-yellow-lighter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75em;
+  border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
 .page-anchors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .page-anchors li {
-    text-align: center;
+  text-align: center;
 }
 
 .page-anchors a {
-    display: block;
-    text-decoration: none;
-    background-color: #222;
-    color: white;
-    padding: .5em 3em;
+  display: block;
+  text-decoration: none;
+  background-color: #222;
+  color: white;
+  padding: 0.5em 3em;
 
-    border-radius: 6px;
-    text-align: center;
-    width: 10em;
-    margin: .5em;
-    transition: all .2s;
+  border-radius: 6px;
+  text-align: center;
+  width: 10em;
+  margin: 0.5em;
+  transition: all 0.2s;
 }
 
 .page-anchors a:hover {
-    background-color: var(--clr-yellow-light);
-    color: black;
-    transform: translateY(3px);
+  background-color: var(--clr-yellow-light);
+  color: black;
+  transform: translateY(3px);
 }
 
-
-
 .drinks-list > li {
-    display: grid;
-    margin-bottom: 1em;
+  display: grid;
+  margin-bottom: 1em;
 }
 
 .drinks-beers li,
 .drinks-vins li,
 .drinks-softs li {
-    border-bottom: 2px dotted var(--clr-yellow-lighter);
+  border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
 .image {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .drinks-list img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .drink-name {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: .25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.25em;
 }
 
 .drinks-cocktails .drink-detail {
-    margin-left: 1em;
+  margin-left: 1em;
+  padding-bottom: 0.5em;
 }
 
 .drink-detail {
-    max-width: 90%;
+  max-width: 90%;
 }
 
 .drink-detail li {
-    margin-top: .5em;
-    border-bottom: 2px dotted var(--clr-yellow-lighter);
+  margin-top: 0.5em;
+  border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
 .drink-detail li strong {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .drink-price {
-    grid-column: 2 / 3;
-    grid-row: 1 / -1;
-    justify-self: end;
-    margin-left: 1em;
-    text-align: right;
+  grid-column: 2 / 3;
+  grid-row: 1 / -1;
+  justify-self: end;
+  margin-left: 1em;
+  text-align: right;
 }
 
 .drinks-list .bgimage {
-    display: flex;
-    justify-content: center;
-    gap: .5em;
-    padding-top: .5em;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  padding-top: 0.5em;
 }
 
 .drinks-list .bgimage div {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: calc(50px + 6vw);
-    height: calc(50px + 6vw);
-    border-radius: 8px;
-    flex: 1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(50px + 6vw);
+  height: calc(50px + 6vw);
+  border-radius: 8px;
+  flex: 1;
 }
 
 .drinks-beers .bgimage div:first-of-type {
-    background-image: url(/img/beers1.jpg);
+  background-image: url(/img/beers1.jpg);
 }
 .drinks-beers .bgimage div:nth-of-type(2) {
-    background-image: url(/img/beers2.jpg);
+  background-image: url(/img/beers2.jpg);
 }
 .drinks-beers .bgimage div:last-of-type {
-    background-image: url(/img/beers3.jpg);
+  background-image: url(/img/beers3.jpg);
 }
 .drinks-cocktails .bgimage div:first-of-type {
-    background-image: url(/img/cocktails1.jpg);
+  background-image: url(/img/cocktails1.jpg);
 }
 .drinks-cocktails .bgimage div:nth-of-type(2) {
-    background-image: url(/img/cocktails2.jpg);
+  background-image: url(/img/cocktails2.jpg);
 }
 .drinks-cocktails .bgimage div:last-of-type {
-    background-image: url(/img/cocktails3.jpg);
+  background-image: url(/img/cocktails3.jpg);
 }
 .drinks-vins .bgimage div:first-of-type {
-    background-image: url(/img/vins3.jpg);
+  background-image: url(/img/vins3.jpg);
 }
 .drinks-vins .bgimage div:nth-of-type(2) {
-    background-image: url(/img/vins1.jpg);
+  background-image: url(/img/vins1.jpg);
 }
 .drinks-vins .bgimage div:last-of-type {
-    background-image: url(/img/vins2.jpg);
+  background-image: url(/img/vins2.jpg);
 }
 .drinks-softs .bgimage div:first-of-type {
-    background-image: url(/img/softs1.jpg);
+  background-image: url(/img/softs1.jpg);
 }
 .drinks-softs .bgimage div:nth-of-type(2) {
-    background-image: url(/img/softs3.jpg);
+  background-image: url(/img/softs3.jpg);
 }
 .drinks-softs .bgimage div:last-of-type {
-    background-image: url(/img/softs2.jpg);
+  background-image: url(/img/softs2.jpg);
 }
