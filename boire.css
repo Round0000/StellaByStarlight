@@ -13,7 +13,70 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: .75em;
-    position: relative;
     border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
+/*  */
+header {
+    display: none !important;
+}
+/*  */
+
+
+.drinks-list li {
+    display: grid;
+    margin-bottom: 1em;
+    border-bottom: 2px dotted var(--clr-yellow-lighter);
+}
+
+.image {
+    max-width: 100%;
+}
+
+.drinks-list img {
+    display: block;
+    max-width: 100%;
+}
+
+.drink-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.drink-detail {
+    font-style: italic;
+}
+
+.drink-price {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    justify-self: end;
+    margin-left: 1em;
+}
+
+.drinks-beers .bgimage {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    padding-top: .5em;
+}
+
+.drinks-beers .bgimage div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(50px + 6vw);
+    height: calc(50px + 6vw);
+    border-radius: 8px;
+    flex: 1;
+}
+
+.drinks-beers .bgimage div:first-of-type {
+    background-image: url(/img/beers1.jpg);
+}
+.drinks-beers .bgimage div:nth-of-type(2) {
+    background-image: url(/img/beers2.jpg);
+}
+.drinks-beers .bgimage div:last-of-type {
+    background-image: url(/img/beers3.jpg);
+}

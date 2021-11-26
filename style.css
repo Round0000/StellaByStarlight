@@ -72,6 +72,10 @@ body {
   grid-template-columns: 1fr calc(2em + 6vw) 60vw calc(2em + 6vw) 1fr;
 }
 
+ul {
+  list-style: none;
+}
+
 @media (max-width: 640px) {
   .full-bleed {
     grid-column: 1 / -1 !important;
