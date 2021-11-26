@@ -75,6 +75,6 @@
 }
 
 .gig-img {
-  max-width: 200px;
+  max-width: 100%;
   object-fit: cover;
 }

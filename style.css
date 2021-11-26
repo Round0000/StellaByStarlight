@@ -99,12 +99,7 @@ ul {
   list-style: none;
 }
 
-@media (max-width: 640px) {
-  .full-bleed {
-    grid-column: 1 / -1 !important;
-    overflow: hidden;
-  }
-}
+
 
 .cta {
   display: block;
@@ -507,3 +502,16 @@ footer .social-icon:hover {
 .social-icon svg {
   max-height: 100%;
 }
+
+/* Media queries */
+
+@media (max-width: 640px) {
+    .full-bleed {
+      grid-column: 1 / -1 !important;
+      overflow: hidden;
+    }
+  
+    .five-col > div {
+        padding: 1em;
+    }
+  }
