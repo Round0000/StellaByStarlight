@@ -54,7 +54,8 @@
 }
 
 .drinks-beers li,
-.drinks-vins li {
+.drinks-vins li,
+.drinks-softs li {
     border-bottom: 2px dotted var(--clr-yellow-lighter);
 }
 
@@ -134,13 +135,13 @@
     background-image: url(/img/cocktails3.jpg);
 }
 .drinks-vins .bgimage div:first-of-type {
-    background-image: url(/img/vins1.jpg);
+    background-image: url(/img/vins3.jpg);
 }
 .drinks-vins .bgimage div:nth-of-type(2) {
-    background-image: url(/img/vins2.jpg);
+    background-image: url(/img/vins1.jpg);
 }
 .drinks-vins .bgimage div:last-of-type {
-    background-image: url(/img/vins3.jpg);
+    background-image: url(/img/vins2.jpg);
 }
 .drinks-softs .bgimage div:first-of-type {
     background-image: url(/img/softs1.jpg);
