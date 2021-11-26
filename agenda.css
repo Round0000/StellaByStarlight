@@ -62,9 +62,12 @@
   background-color: var(--clr-blue-lighter);
   padding: 0.75em;
   border-left: 5px solid var(--clr-blue-light);
+  min-width: 50%;
 }
 
 .gig-date {
+  max-width: max-content;
+  align-self: flex-end;
   display: block;
   font-weight: lighter;
   font-size: 0.9rem;
@@ -80,6 +83,7 @@
   font-size: 0.9rem;
   display: flex;
   padding: 1em;
+  background-color: #fff;
 }
 
 .gig-img {
