@@ -9,8 +9,8 @@
 }
 
 .gigs li {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
   margin: 1em;
   box-shadow: 0 1px 2px #0005, 0 2px 3px var(--clr-blue-lighter);
   overflow: hidden;
@@ -49,6 +49,9 @@
 
 .gig-details {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .gigs h4 {
@@ -84,9 +87,18 @@
   display: flex;
   padding: 1em;
   background-color: #fff;
+  flex: 1;
+  min-height: 10em;
 }
 
 .gig-img {
   max-width: 100%;
   object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .gigs li {
+    grid-template-columns: 1fr;
+  }
 }
